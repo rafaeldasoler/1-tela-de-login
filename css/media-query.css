@@ -8,19 +8,22 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
-    main {
-        background-color: green;
+    section {
+        width: 450px;
+        height: 350px;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-    main {
-        background-color: yellow;
+    section {
+        width: 550px;
+        height: 450px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
-    main {
-        background-color: red;
+@media screen and (min-width: 1200px) {
+    section {
+        width: 650px;
+        height: 550px;
     }
 }
