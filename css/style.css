@@ -25,6 +25,7 @@ section {
     border-radius: 10px;
     box-shadow: 0px 0px 15px black;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
@@ -32,11 +33,12 @@ section {
 
 fieldset {
     border-radius: 10px;
-    text-align: center;
+    
 }
 
 legend {
-    text-align: center;
+    margin-left: calc(50% - 35px - 16px);
+    /*text-align: center;*/
 }
 
 div.usuario, div.senha {
