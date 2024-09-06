@@ -33,7 +33,6 @@ section {
 
 fieldset {
     border-radius: 10px;
-    
 }
 
 legend {
@@ -61,6 +60,7 @@ input[type=submit] {
     border: 1px solid black;
     width: 90px;
     margin: 10px 0px;
+    margin-left: 82px;
 }
 
 input[type=submit]:hover {
