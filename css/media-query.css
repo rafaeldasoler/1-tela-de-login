@@ -2,28 +2,28 @@
 
 @media screen and (min-width: 576px) {
     section {
-        width: 350px;
+        flex: 0 1 350px;
         height: 250px;
     }
 }
 
 @media screen and (min-width: 768px) {
     section {
-        width: 450px;
+        flex: 0 1 450px;
         height: 350px;
     }
 }
 
 @media screen and (min-width: 992px) {
     section {
-        width: 550px;
+        flex: 0 1 550px;
         height: 450px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     section {
-        width: 650px;
+        flex: 0 1 650px;
         height: 550px;
     }
 }
