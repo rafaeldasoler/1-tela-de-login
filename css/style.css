@@ -2,15 +2,18 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
 }
 
 main {
     width: 100vw;
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: #f3f781;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -19,8 +22,8 @@ main {
 
 section {
     flex: 0 1 260px;
-    height: 500px;
-    background-color: white;
+    height: 300px;
+    background-color: #f4f458;
     border-radius: 10px;
     box-shadow: 0px 0px 15px black;
     display: flex;
@@ -53,13 +56,13 @@ legend {
 }
 
 div.usuario, div.senha {
-    flex: 0 1 252px;
+    flex: 0 1 255px;
+    padding: 0px 5px;
+    margin-top: 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5px;
-    margin-top: 10px;
 }
 
 input[type=text], input[type=password] {
@@ -67,12 +70,21 @@ input[type=text], input[type=password] {
     padding: 3px;
 }
 
+div.btn {
+    flex: 0 1 255px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 input[type=submit] {
     flex: 0 1 90px;
+    height: 25px;
     background-color: white;
     border: 1px solid black;
-    margin: 10px 0px;
-    
 }
 
 input[type=submit]:hover {
