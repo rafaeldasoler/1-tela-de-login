@@ -1,29 +1,5 @@
-@charset "UTF-8";
-
-@media screen and (min-width: 576px) {
-    section {
-        flex: 0 1 350px;
-        height: 250px;
-    }
-}
-
 @media screen and (min-width: 768px) {
     section {
-        flex: 0 1 450px;
-        height: 350px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    section {
-        flex: 0 1 550px;
-        height: 450px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    section {
-        flex: 0 1 650px;
-        height: 550px;
+        height: 400px;
     }
 }
