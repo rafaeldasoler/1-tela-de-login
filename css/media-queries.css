@@ -4,6 +4,7 @@
             height: 350px;
             margin: 10px;
             transition: 0.5s;
+            background-color: blue;
         }
 
         form {
