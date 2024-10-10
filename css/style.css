@@ -81,6 +81,15 @@ input[type=email], input[type=password] {
     margin-top: 7px;
 }
 
+input[type=email]:hover, input[type=password]:hover {
+    border: 1px solid var(--cor-004);
+}
+
+form input:focus {
+    border: 1px solid var(--cor-004);
+    outline: 0;
+}
+
 form a {
     color: black;
     font-size: 1em;
@@ -95,4 +104,9 @@ form .btn {
     border-radius: 5px;
     border: none;
     margin-top: 15px;
+}
+
+form .btn:hover {
+    background-color: var(--cor-008);
+    cursor: pointer;
 }
