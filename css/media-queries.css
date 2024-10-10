@@ -1,6 +1,13 @@
 @media screen and (min-width: 576px) {
         section {
-            flex: 0 0 450px;
+            flex: 0 0 350px;
+            height: 350px;
+            margin: 10px;
             transition: 0.5s;
+        }
+
+        form {
+            flex: 1 1 auto;
+            height: 330px;
         }
     }
