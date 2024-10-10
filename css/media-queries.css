@@ -10,4 +10,8 @@
             flex: 1 1 auto;
             height: 330px;
         }
+
+        form p {
+            display: none;
+        }
     }
