@@ -1,4 +1,7 @@
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width: 576px) {
+        section {
+            flex: 0 0 450px;
+            transition: 0.5s;
+        }
     }
 }
