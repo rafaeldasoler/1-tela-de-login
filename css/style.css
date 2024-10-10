@@ -50,10 +50,49 @@ section {
 form {
     flex: 1 1 auto;
     height: 400px;
-    border: 2px solid red;
     margin: 10px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: stretch;
+}
+
+form h1 {
+    font-size: 2.3em;
+    color: var(--cor-001);
+}
+
+form p {
+    color: var(--cor-003);
+    margin-top: 15px;
+}
+
+form label {
+    font-weight: bold;
+    color: var(--cor-001);
+    margin-top: 25px;
+}
+
+input[type=email], input[type=password] {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-005);
+    padding-left: 15px;
+    margin-top: 7px;
+}
+
+form a {
+    color: black;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+form .btn {
+    height: 40px;
+    background-color: var(--cor-004);
+    font-size: 1em;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
 }
