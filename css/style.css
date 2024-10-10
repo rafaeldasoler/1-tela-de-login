@@ -28,7 +28,6 @@ main {
     width: 100%;
     height: 100%;
     background-color: var(--cor-002);
-    overflow: hidden;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
